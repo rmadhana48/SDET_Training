@@ -1,0 +1,122 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Launch the Application",
+        "description": "",
+        "id": "title-of-your-feature;launch-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9931675900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to launch elearning url",
+            "match": {
+              "location": "LaunchURL.i_want_to_launch_elearning_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 210503900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to enter username \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 26
+                }
+              ],
+              "location": "LaunchURL.i_want_to_enter_username(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 224766600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to enter password \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@123",
+                  "offset": 26
+                }
+              ],
+              "location": "LaunchURL.i_want_to_enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3440242200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on login button",
+            "match": {
+              "location": "LaunchURL.i_click_on_login_button()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Click on Administration tab",
+        "description": "",
+        "id": "title-of-your-feature;click-on-administration-tab",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2809591000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I want to Add a user",
+            "match": {
+              "location": "LaunchURL.i_want_to_Add_a_user()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@CreateUser"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "I want to Launch the application",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@LaunchApp"
+      }
+    ]
+  }
+]
